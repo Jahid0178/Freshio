@@ -115,7 +115,7 @@ h2 {
 
 .recipie-title {
     width: 50%;
-    margin: 30px auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -132,6 +132,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 30px;
 }
 
 .box-body {
@@ -153,3 +154,26 @@ h2 {
     padding: 15px 0;
 }
 /*==== Recipie section end ====*/
+
+/*==== Count section start*/
+.count-section {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.count-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+#items-center {
+    width: 80%;
+    height: 30vh;
+    margin: 0 auto;
+}
+/*==== Count section end*/
