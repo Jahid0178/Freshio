@@ -70,6 +70,10 @@ h2 {
     background-image: linear-gradient(60deg, #ff5858 0%, #f09819 100%);
 }
 
+.btn:hover {
+    background: linear-gradient(60deg, #f09819 , #ff5858);
+}
+
 /*==== About section start ====*/
 
 .about-section {
@@ -143,6 +147,10 @@ h2 {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
+.box-body:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
 .box-body .recipie {
     width: 100%;
     height: 230px;
@@ -169,6 +177,10 @@ h2 {
     align-items: center;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.count-box:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 #items-center {
@@ -239,3 +251,19 @@ h2 {
     color: #858585;
 }
 /*==== Event section end ====*/
+
+footer {
+    width: 100%;
+    height: 40vh;
+    background: #0B0B10;
+    color: rgb(167, 159, 159);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer #footer-header {
+    color: #FD5231;
+    padding: 20px 0;
+}
